@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: White;
+}
+
+#shopping-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#header {
+  text-align: center;
+}
+
+#input-box {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#input-button {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to both ends */
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+li.completed {
+  color: grey;
+}
+
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
